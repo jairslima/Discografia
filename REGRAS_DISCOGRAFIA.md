@@ -4,6 +4,12 @@
 
 Automatizar a analise de pastas musicais para gerar arquivos `*_musicas_faltantes.md`, comparando o acervo local com o catalogo publico do artista no Apple Music, com retomada segura entre execucoes.
 
+## Relacao com AGENTS
+
+- `AGENTS.md` deste projeto concentra as instrucoes operacionais para o agente durante a execucao do trabalho.
+- Este arquivo concentra as regras funcionais e de comportamento do aplicativo.
+- Em caso de sobreposicao, trate `AGENTS.md` como guia operacional do agente e este arquivo como especificacao funcional do projeto.
+
 ## Escopo padrao
 
 - funciona a partir da pasta atual ou de uma raiz informada por parametro
@@ -50,20 +56,6 @@ Automatizar a analise de pastas musicais para gerar arquivos `*_musicas_faltante
 - quando houver divergencia de titulo, edicao ou contagem, registrar como parcial
 - `playback`, `karaoke` e `instrumental` nao devem servir como match principal por padrao
 - `ao vivo` e `acustico` devem influenciar a confianca da comparacao
-
-## Estrutura dos markdowns por artista
-
-Cada arquivo deve conter:
-
-- titulo `# Nome do artista - musicas faltantes`
-- contexto da comparacao
-- `## Resumo`
-- `## Inventario local`
-- `## Albums que parecem presentes na pasta`, quando aplicavel
-- `## Faltantes parciais ou com divergencia`, quando aplicavel
-- `## Lancamentos ausentes da pasta`, quando aplicavel
-- `## Observacao`
-- `## Fontes`
 
 ## Regras de seguranca operacional
 
