@@ -12,6 +12,7 @@ htmlcov/
 _tmp_test_*/
 tmp*/
 
+_teste/
 _teste/.discografia/
 
 .discografia/
