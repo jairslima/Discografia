@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+*.spec
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+_tmp_test_*/
+tmp*/
+
+_teste/.discografia/
+
+.discografia/

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discografia"
+version = "0.1.0"
+description = "Utilitario para auditar discografias locais com pausa, retomada e comparacao conservadora com Apple Music."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Jairs" }
+]
+
+[project.scripts]
+discografia = "discografia.cli:main"
+
+[tool.setuptools]
+packages = ["discografia"]
